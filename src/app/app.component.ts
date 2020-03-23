@@ -15,7 +15,12 @@ export class AppComponent implements OnInit {
     {
       title: 'Rooms',
       url: '/rooms',
-      icon: 'paper-plane'
+      icon: 'chatbubbles'
+    },
+    {
+      title: 'Users',
+      url: '/users',
+      icon: 'skull'
     }
   ];
   public labels = [];
